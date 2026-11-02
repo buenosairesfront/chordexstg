@@ -1740,7 +1740,7 @@ local function draw_splash(alpha, t)
   screen.level(lv)
   screen.font_face(1)
   screen.font_size(16)
-  local txt = "A R C O"
+  local txt = "chordexstg"
   local w = screen.text_extents(txt)
   screen.move(64 - w / 2, 22)
   screen.text(txt)

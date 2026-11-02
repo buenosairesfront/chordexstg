@@ -1,5 +1,5 @@
-// Engine_Arco.sc
-// ARCO — cuerdas de orquesta. Mismo instrumento de acordes que la familia
+// Engine_ChordexSTG.sc
+// ChordexSTG — cuerdas de orquesta. Mismo instrumento de acordes que la familia
 // Chordex (una tecla = un acorde de 4 tonos + bajo, arpegio, retener,
 // crackle de disco viejo), pero cada voz es una SECCIÓN de cuerdas.
 //
@@ -17,7 +17,7 @@
 // FX (\ar_fx): disco viejo -> ensemble -> cielo (shimmer) -> sala de
 //   conciertos (reflexiones tempranas + cola larga) -> compresor.
 
-Engine_Arco : CroneEngine {
+Engine_ChordexSTG : CroneEngine {
 
   var voiceBus, dynBus;
   var fxSynth, bodies;

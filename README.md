@@ -1,12 +1,12 @@
 **English** · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md)
 
-# arco
+# ChordexSTG
 
 An orchestral string section for [monome norns](https://monome.org/docs/norns/):
 one key plays a four-note chord (plus bass) bowed by violins, violas, cellos,
 double basses or the whole orchestra.
 
-![arco](docs/sheet.png)
+![ChordexSTG](docs/sheet.png)
 
 **The screen is the instrument.** In the middle you see the four strings from
 the front, from fingerboard to bridge, with the f-holes on the sides. Each note
@@ -49,11 +49,11 @@ sparks show the "sky" shimmer.
 From maiden:
 
 ```
-;install https://github.com/buenosairesfront/arco
+;install https://github.com/buenosairesfront/chordexstg
 ```
 
-Then **restart norns** (SYSTEM > RESTART) so the new engine `Arco` is
-compiled, and load **arco** from SELECT.
+Then **restart norns** (SYSTEM > RESTART) so the new engine `ChordexSTG` is
+compiled, and load **chordexstg** from SELECT.
 
 ## Controls
 

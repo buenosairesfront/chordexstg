@@ -1,11 +1,11 @@
 [English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **日本語** · [中文](README.zh.md) · [हिन्दी](README.hi.md)
 
-# arco
+# ChordexSTG
 
 [monome norns](https://monome.org/docs/norns/) 用のオーケストラ弦楽セクション。
 1 つのキーで 4 音のコード（＋ベース）を、ヴァイオリン、ヴィオラ、チェロ、コントラバス、またはオーケストラ全体が弓で奏でます。
 
-![arco](docs/sheet.png)
+![ChordexSTG](docs/sheet.png)
 
 **画面そのものが楽器です。** 中央には 4 本の弦が正面から、指板から駒まで描かれ、両脇に f 字孔があります。コードの各音は自分の弦の上で、弓で擦った弦の実際の動き（ヘルムホルツ運動：指と駒のあいだを角が往復する）で振動します。指は音を押さえている位置を示し、ビブラートに合わせて揺れます。弓は弦を横切り、その高さが音色（上 = スル・タスト、下 = スル・ポンティチェロ）、速さが強弱を表します。スピッカートでは跳ね、トレモロでは震え、ピッツィカートでは弓が離れます。松脂の粉は弓圧を、立ち上る火花は「空（シマー）」を表します。
 
@@ -34,10 +34,10 @@
 maiden から：
 
 ```
-;install https://github.com/buenosairesfront/arco
+;install https://github.com/buenosairesfront/chordexstg
 ```
 
-その後、新しいエンジン `Arco` をコンパイルするために **norns を再起動**（SYSTEM > RESTART）し、SELECT から **arco** を読み込みます。
+その後、新しいエンジン `ChordexSTG` をコンパイルするために **norns を再起動**（SYSTEM > RESTART）し、SELECT から **chordexstg** を読み込みます。
 
 ## 操作
 

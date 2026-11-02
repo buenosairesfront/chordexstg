@@ -1,12 +1,12 @@
 [English](README.md) · [Español](README.es.md) · **Français** · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md)
 
-# arco
+# ChordexSTG
 
 Un pupitre de cordes d'orchestre pour [monome norns](https://monome.org/docs/norns/) :
 une touche joue un accord de quatre notes (plus la basse), frotté par des
 violons, des altos, des violoncelles, des contrebasses ou tout l'orchestre.
 
-![arco](docs/sheet.png)
+![ChordexSTG](docs/sheet.png)
 
 **L'écran est l'instrument.** Au centre, on voit les quatre cordes de face, de
 la touche au chevalet, avec les ouïes sur les côtés. Chaque note de l'accord
@@ -50,11 +50,11 @@ pression ; les étincelles qui montent, le « ciel ».
 Depuis maiden :
 
 ```
-;install https://github.com/buenosairesfront/arco
+;install https://github.com/buenosairesfront/chordexstg
 ```
 
 Ensuite **redémarrez norns** (SYSTEM > RESTART) pour compiler le nouveau
-moteur `Arco`, puis chargez **arco** depuis SELECT.
+moteur `ChordexSTG`, puis chargez **chordexstg** depuis SELECT.
 
 ## Contrôles
 

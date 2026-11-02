@@ -1,12 +1,12 @@
 [English](README.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md)
 
-# arco
+# ChordexSTG
 
 Una sección de cuerdas de orquesta para [monome norns](https://monome.org/docs/norns/):
 una tecla toca un acorde de cuatro notas (más bajo) frotado por violines,
 violas, cellos, contrabajos o la orquesta entera.
 
-![arco](docs/sheet.png)
+![ChordexSTG](docs/sheet.png)
 
 **La pantalla es el instrumento.** En el centro se ven las cuatro cuerdas de
 frente, del diapasón al puente, con las efes a los costados. Cada nota del
@@ -49,11 +49,11 @@ polvo de resina muestra la presión; las chispas que suben, el "cielo".
 Desde maiden:
 
 ```
-;install https://github.com/buenosairesfront/arco
+;install https://github.com/buenosairesfront/chordexstg
 ```
 
 Después **reiniciá la norns** (SYSTEM > RESTART) para que compile el engine
-nuevo `Arco`, y cargá **arco** desde SELECT.
+nuevo `ChordexSTG`, y cargá **chordexstg** desde SELECT.
 
 ## Controles
 

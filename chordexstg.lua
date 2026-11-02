@@ -1,4 +1,4 @@
--- ARCO
+-- ChordexSTG
 -- cuerdas de orquesta, de la familia U-MA / Chordex: una tecla = un
 -- acorde de 4 tonos (+ bajo) tocado por una sección de cuerdas, arpegio,
 -- retener, modo acorde, crackle de disco viejo con más de 2 teclas.
@@ -40,7 +40,7 @@
 --   K1 mantenido: retener on/off (rombito arriba a la derecha)
 --   clock MIDI entrante: solo marca el tempo del arpegio
 
-engine.name = 'Arco'
+engine.name = 'ChordexSTG'
 
 local musicutil = require 'musicutil'
 
@@ -606,7 +606,7 @@ end
 local STATE_FILE
 
 local function add_params()
-  params:add_separator("arco", "ARCO")
+  params:add_separator("chordexstg", "CHORDEX STG")
   params:add_number("midi_channel", "canal MIDI (0=todos)", 0, 16, 0)
   params:add_option("midi_clock_div", "divisor reloj MIDI", {"1x", "2x", "4x", "8x"}, 3)
   params:add_option("seccion", "sección", SEC_NAMES, 1)
@@ -660,7 +660,7 @@ end
 
 local screen_metro
 local splash_start = nil
--- primero la intro U-MA de particulas (la de uma_splash/splash), despues ARCO
+-- primero la intro U-MA de particulas (la de uma_splash/splash), despues ChordexSTG
 local SPLASH_IN, SPLASH_HOLD, SPLASH_FADE = 0.5, 1.8, 0.7
 local uma_intro = include("lib/uma_splash_particles")
 local uma_sound = include("lib/uma_splash") -- base de la intro, maneja el sonido
@@ -691,7 +691,7 @@ function init()
 end
 
 function cleanup()
-  if STATE_FILE then params:write(STATE_FILE, "arco") end
+  if STATE_FILE then params:write(STATE_FILE, "chordexstg") end
 end
 
 local function nudge(p, d)

@@ -1,12 +1,12 @@
 [English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · **Deutsch** · [日本語](README.ja.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md)
 
-# arco
+# ChordexSTG
 
 Eine Orchester-Streichergruppe für [monome norns](https://monome.org/docs/norns/):
 Eine Taste spielt einen vierstimmigen Akkord (plus Bass), gestrichen von
 Violinen, Bratschen, Celli, Kontrabässen oder dem ganzen Orchester.
 
-![arco](docs/sheet.png)
+![ChordexSTG](docs/sheet.png)
 
 **Das Display ist das Instrument.** In der Mitte sieht man die vier Saiten von
 vorne, vom Griffbrett bis zum Steg, mit den F-Löchern an den Seiten. Jeder Ton
@@ -50,11 +50,11 @@ Kolophoniumstaub zeigt den Bogendruck, aufsteigende Funken den „Himmel“.
 In maiden:
 
 ```
-;install https://github.com/buenosairesfront/arco
+;install https://github.com/buenosairesfront/chordexstg
 ```
 
-Danach **norns neu starten** (SYSTEM > RESTART), damit die neue Engine `Arco`
-kompiliert wird, und **arco** über SELECT laden.
+Danach **norns neu starten** (SYSTEM > RESTART), damit die neue Engine `ChordexSTG`
+kompiliert wird, und **chordexstg** über SELECT laden.
 
 ## Bedienung
 

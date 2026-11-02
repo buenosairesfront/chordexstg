@@ -1,10 +1,10 @@
 [English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · **中文** · [हिन्दी](README.hi.md)
 
-# arco
+# ChordexSTG
 
 为 [monome norns](https://monome.org/docs/norns/) 设计的管弦乐弦乐组：按一个键，就会由小提琴、中提琴、大提琴、低音提琴或整个乐团用弓拉奏出一个四音和弦（外加低音）。
 
-![arco](docs/sheet.png)
+![ChordexSTG](docs/sheet.png)
 
 **屏幕就是乐器。** 中央是从正面看到的四根弦，从指板一直到琴码，两侧是 f 孔。和弦中的每个音都在自己的弦上，以真实拉弦的运动方式振动（亥姆霍兹运动：一个折角在手指和琴码之间来回奔跑）。手指标出按弦的位置，并随揉弦摆动。琴弓横跨琴弦：它的高度代表音色（上 = 指板上方奏法 sul tasto，下 = 近琴码奏法 sul ponticello），速度代表力度。顿弓时弹跳，震音时颤动，拨弦时抬起。松香粉末表示弓压，向上飘的火花表示「天空」shimmer 效果。
 
@@ -33,10 +33,10 @@
 在 maiden 中输入：
 
 ```
-;install https://github.com/buenosairesfront/arco
+;install https://github.com/buenosairesfront/chordexstg
 ```
 
-然后**重启 norns**（SYSTEM > RESTART）以编译新引擎 `Arco`，再从 SELECT 加载 **arco**。
+然后**重启 norns**（SYSTEM > RESTART）以编译新引擎 `ChordexSTG`，再从 SELECT 加载 **chordexstg**。
 
 ## 操作
 

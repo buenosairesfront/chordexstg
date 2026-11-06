@@ -35,7 +35,6 @@ sparks show the "sky" shimmer.
 - **arpeggiator**: up, down, up-down, up x2, down x2, random and *arpa* (harp);
   gate at maximum = real legato, the bow slides from note to note
 - **chord mode** on/off (off = single notes) and **hold**
-- old-record crackle when more than two keys are held
 - follows incoming MIDI clock for the arpeggio tempo
 - all settings are saved automatically
 

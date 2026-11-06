@@ -36,7 +36,6 @@ pression ; les étincelles qui montent, le « ciel ».
 - **arpégiateur** : up, down, up-down, up x2, down x2, random et *arpa*
   (harpe) ; gate au maximum = vrai legato, l'archet glisse de note en note
 - **mode accord** on/off (off = notes seules) et **maintien**
-- craquement de vieux disque avec plus de deux touches enfoncées
 - suit l'horloge MIDI entrante pour le tempo de l'arpège
 - tous les réglages sont sauvegardés automatiquement
 

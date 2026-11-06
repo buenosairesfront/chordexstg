@@ -35,7 +35,6 @@ polvo de resina muestra la presión; las chispas que suben, el "cielo".
 - **arpegiador**: up, down, up-down, up x2, down x2, random y *arpa*; con el
   gate al máximo, legato real: el arco se desliza de nota a nota
 - **modo acorde** on/off (off = una nota) y **retener**
-- crackle de disco viejo con más de dos teclas apretadas
 - sigue el clock MIDI entrante para el tempo del arpegio
 - todo se guarda solo
 
